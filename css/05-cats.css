@@ -1,0 +1,43 @@
+/* PHASE 5: Cats */
+.content-header {
+  width: 100%;
+  height: 200px;
+  background: url("../../shared/img/cats.jpg") no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.content-header h1 {
+  line-height: 1;
+  text-shadow: #000 0 0 10px;
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  font-weight: 300;
+}
+
+.content-header-add-friend {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.content-header-add-friend:hover {
+  background-color: #eee;
+}
+
+.icon-small-friends {
+  width: 16px;
+  height: 16px;
+  background: url('../../shared/img/sprite.png');
+  background-position: 0px 300px;
+}
